@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 import random
 
-TOKEN = "NDcyNDAzNjc5NDc1OTI1MDAz.Dj0-vw.HpJD4JRmNve8IEdk-lznz5Z7oTQ" # Make sure to remove this before pushing to GitHub
+TOKEN = "dongers" # Make sure to remove this before pushing to GitHub
 description = '''This bot generates random team compositions for Overwatch. That way more people have a better time playing the game.'''
 bot = commands.Bot(command_prefix='$', description=description)
 client = discord.Client()
