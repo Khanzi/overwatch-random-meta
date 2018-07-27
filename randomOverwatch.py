@@ -1,5 +1,6 @@
 import random
 import os
+
 tanks = ["Hammond", "Reinhardt","Zarya","Orissa","D.Va","Winston","Roadhog"]
 dps = ["Bastion","Doomfist","Genji","Hanzo","Junkrat","McCree","Mei","Pharah","Reaper","Soldier: 76","Sombra","Symmetra","Torbjorn","Tracer","Widowmaker"]
 heals = ["Mercy","Zenyatta","Ana","Brigitte","Lucio","Moira"]
@@ -24,6 +25,7 @@ def total_random():
 		if randomHero not in team:
 			team.append(randomHero)
 	return team
+
 
 def two_two_two():
 	healers = couple_picker(heals)
