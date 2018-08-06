@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import random
 
-TOKEN = "NDcyNDAzNjc5NDc1OTI1MDAz.Dkpk_g.4FBulS2MAMiX5_GeDkvLI2d92Yk" # Make sure to remove this before pushing to GitHub
+TOKEN = "NDcyNDAzNjc5NDc1OTI1MDAz.Dkpvuw.3ODlvNuqhlw0n6gv-SKL7_CJLsE" # Make sure to remove this before pushing to GitHub
 description = '''This bot generates random team compositions for Overwatch. That way more people have a better time playing the game.'''
 bot = commands.Bot(command_prefix='$', description=description)
 
@@ -185,6 +185,10 @@ async def donate(ctx):
 		+"Bitcoin: 3KgHjmRgtPxKGfGj5wVVwfqUQhwretKjke \n"
 		+ "\n"
 		+"Thanks! ```")
+@bot.command(name="github")
+async def github(ctx):
+	"""Link to the github"""
+	await ctx.send("https://khanzi.github.io/overwatch-random-meta/")
 
 if __name__ == "__main__":
 	bot.run(TOKEN)
