@@ -1,6 +1,7 @@
 # Random Overwatch
 
 This little python script will generate a variety of different team compositions for you and your buddies while you guys play Overwatch. Now Tyler won't get stuck playing Mercy for 3 hours straight and every gets a chance to play different roles and heroes.
+Recently developed it into a Discord bot.
 
 ## Future Improvements
 * Allows members to set preferences
@@ -17,3 +18,4 @@ If you can please donate -  all donations go directly to paying for hosting and 
 Bitcoin: 3KgHjmRgtPxKGfGj5wVVwfqUQhwretKjke 
 
 Thanks! 
+
