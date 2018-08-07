@@ -4,9 +4,11 @@ This little python script will generate a variety of different team compositions
 Recently developed it into a Discord bot.
 
 ## Commands
+Simply type
 ```
 $help
 ```
+And it will return
 ```
   $222      Generates a random 2 healer, 2 tank, 2 dps team composition
   $channel  Assigns a hero to all the users within the requestors voice channel. 28 <= players in channel
